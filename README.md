@@ -43,9 +43,20 @@ If you use Vim 8 or better, simply copy and paste:
 
     git clone git://github.com/ajh17/Spacegray.vim ~/.vim/pack/vendor/start/Spacegray
 
-Then in your ~/.vimrc, add this line:
+Then in your `~/.vimrc`, add this line:
 
     colorscheme spacegray
+
+If you want to use the [lightline](https://github.com/itchyny/lightline.vim/) theme, also add:
+
+    let g:lightline.colorscheme='spacegray'
+
+or
+
+    let g:lightline = {
+    \    'colorscheme': 'spacegray',
+    \    [Other settings...]
+    \}
 
 ## Terminal Environment
 
