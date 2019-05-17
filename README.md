@@ -11,5 +11,5 @@ and use the latest version of Vim colorscheme maintained by ajh17
 
 ### Plug
 ```
-Plug "dneto/spacegray-lightline"
+Plug 'dneto/spacegray-lightline'
 ```
